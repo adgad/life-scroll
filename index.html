@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Scrolling Life</title>
+
+  <style>
+  .life {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+    }
+    .life div {
+      box-sizing: border-box;
+      position: relative;
+    }
+    .life aside {
+
+      -ms-writing-mode: tb-rl;    
+      -webkit-writing-mode: vertical-rl;
+      writing-mode: vertical-rl;
+			position: absolute;
+			top: 10px;
+			right: -24px;
+			font-family: Helvetica, Arial, sans-serif;
+    }
+    .life div span {
+    	      padding: 20px 5px;
+			display: inline-block;
+      -ms-writing-mode: tb-rl;    
+      -webkit-writing-mode: vertical-rl;
+      writing-mode: vertical-rl;
+    	position: -webkit-sticky;
+      position: sticky;
+      top: 5px;
+      font-family: "Courier New",courier, monospace;
+      font-weight: bold;
+      font-size: 1em;
+      font-size: 3vmax;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .baby {
+      height: 200vh;
+      background: #FFCDD2;
+    }
+    .toddler {
+      margin-top: 200vh;
+      background: #B2EBF2;
+      height: 300vh;
+    }
+
+    .primary-school {
+      margin-top: 500vh;
+      background: #FFF59D;
+      height: 700vh;
+    }
+
+    .secondary-school {
+      margin-top: 1200vh;
+      background: #CFD8DC;
+      height: 400vh;
+    }
+    .college {
+      margin-top: 1600vh;
+      background: #9FA8DA;
+      height: 200vh;
+    }
+    .university {
+      margin-top: 1800vh;
+      background: #F48FB1;
+      height: 300vh;
+    }
+    .university {
+      margin-top: 1800vh;
+      background: #9FA8DA;
+      height: 300vh;
+    }
+    .work {
+      margin-top: 2100vh;
+      background: #81D4FA;
+      height: 4600vh;
+    }
+    .engaged {
+      margin-top: 2900vh;
+      background: #EA80FC;
+      height: 100vh;
+    }
+    .married {
+      margin-top: 3000vh;
+      background: #EF9A9A;
+      height: 5000vh;
+    }
+    .parent {
+      margin-top: 3300vh;
+      background: #FBC02D;
+      height: 4700vh;
+    }
+    .grandparent {
+      margin-top: 5000vh;
+      background: #D7CCC8;
+      height: 3000vh;
+    }
+    .retired {
+      margin-top: 6700vh;
+      background: #B2FF59;
+      height: 1300vh;
+    }
+  </style>
+  
+</head>
+<body>
+  <div class="life">
+    <div class="baby"><span>Baby</span><aside>Age 0</aside></div>
+    <div class="toddler"><span>Toddler</span><aside>Age 2</aside></div>
+    <div class="primary-school"><span>Primary School</span><aside>Age 5</aside></div>
+    <div class="secondary-school"><span>Secondary School</span><aside>Age 12</aside></div>
+    <div class="college"><span>College</span><aside>Age 16</aside></div>
+    <div class="university"><span>University</span><aside>Age 18</aside></div>
+    <div class="work"><span>Working</span><aside>Age 21</aside></div>
+    <div class="engaged"><span>Engaged</span><aside>Age 29</aside></div>
+    <div class="married"><span>Married</span><aside>Age 30</aside></div>
+    <div class="parent"><span>Parent</span><aside>Age 33</aside></div>
+    <div class="grandparent"><span>Grandparent</span><aside>Age 50</aside></div>
+    <div class="retired"><span>Retired</span><aside>Age 67</aside></div>
+  </div>
+</body>
+</html>
